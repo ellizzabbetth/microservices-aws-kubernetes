@@ -3,11 +3,14 @@ The Coworking Space Service is a set of APIs that enables users to request one-t
 
 For this project, you are a DevOps engineer who will be collaborating with a team that is building an API for business analysts. The API provides business analysts basic analytics data on user activity in the service. The application they provide you functions as expected locally and you are expected to help build a pipeline to deploy it in Kubernetes.
 
+
+https://github.com/yash-me/coworking-space/blob/main/README.md
+
 ## Getting Started
 
 ### Dependencies
 #### Local Environment
-1. Python Environment - run Python 3.6+ applications and install Python dependencies via `pip`
+1. Python Environment - run Python 3.6+ applications and install Python dependencies via `pip install -r analytics/requirements.txt`
 2. Docker CLI - build and run Docker images locally
 3. `kubectl` - run commands against a Kubernetes cluster
 4. `helm` - apply Helm Charts to a Kubernetes cluster
@@ -129,3 +132,23 @@ Please provide up to 3 sentences for each suggestion. Additional content in your
 ### Best Practices
 * Dockerfile uses an appropriate base image for the application being deployed. Complex commands in the Dockerfile include a comment describing what it is doing.
 * The Docker images use semantic versioning with three numbers separated by dots, e.g. `1.2.1` and  versioning is visible in the  screenshot. See [Semantic Versioning](https://semver.org/) for more details.
+
+
+## Resources
+
+https://github.com/infosecNarrator/udacity-microservices
+
+https://github.com/adamsteff/udacity-asteff-ml-microservice-kubernetes
+
+```kubectl version --output=json``` rather than ```kubectl version --short```
+
+
+https://phoenixnap.com/kb/create-helm-chart
+
+
+https://www.youtube.com/watch?v=lLLEmrr9uxQ
+
+https://stackoverflow.com/questions/61221341/aws-eks-create-cluster-error-us-east-1e-does-not-currently-have-sufficient-cap
+
+Deploy an Amazon EKS Cluster using the AWS CLI, kubectl and eksct https://www.youtube.com/watch?v=6wlj-x58lPM
+
